@@ -90,20 +90,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Salami Bolatito,
           <br />
-          Serbia,
+          Nigeria,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+         Ilorin Sango,kuagi resource <br />
+          Kwara State <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>titoinc8@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[8.499490697186657, 4.573478979787694]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[8.499490697186657, 4.573478979787694]}>
+              <Popup>Tito lives here, come over for a cup of teaS :)</Popup>
             </Marker>
           </MapContainer>
         </div>
